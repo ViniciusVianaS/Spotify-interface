@@ -26,11 +26,10 @@ export default function Home() {
             </a>
           </nav>
           <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3">
-            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Funk</a>
+            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Trap</a>
             <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Rockzera</a>
-            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Só o filé</a>
+            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Playlist</a>
             <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Aleatórios</a>
-            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Zero</a>
           </nav>
         </aside>
         <main className="flex-1 p-6">
@@ -59,29 +58,29 @@ export default function Home() {
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
-              <img src="/justin.png" width={70} height={70}  alt="Album image"/>
-              <strong>This is Justin Bieber</strong>
+              <img src="/tweeknd.jpg" width={70} height={70}  alt="Album image"/>
+              <strong>This is The Weeknd</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
-              <img src="/justin.png" width={70} height={70}  alt="Album image"/>
-              <strong>This is Justin Bieber</strong>
+              <img src="/matue.webp" width={70} height={70}  alt="Album image"/>
+              <strong>This is Matuê</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
-              <img src="/justin.png" width={70} height={70}  alt="Album image"/>
-              <strong>This is Justin Bieber</strong>
+              <img src="/brazil.jpg" width={70} height={70}  alt="Album image"/>
+              <strong>Top 50 - Brasil</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
-              <img src="/justin.png" width={70} height={70}  alt="Album image"/>
-              <strong>This is Justin Bieber</strong>
+              <img src="/eletronica.jpg" width={70} height={70}  alt="Album image"/>
+              <strong>Eletronica</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                 <Play />
               </button>
@@ -90,19 +89,19 @@ export default function Home() {
           <h2 className="font-semibold text-2xl mt-10">Made for Vinicius Viana</h2>
           <div className="grid grid-cols-6 gap-4 mt-4">
             <a href="#" className="bg-white/5 p-3 rounded ">
-              <img src="/justin.png" className="w-full" width={70} height={70}  alt="Album image"/>
+              <img src="/matue.webp" className="w-full" width={70} height={70}  alt="Album image"/>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded ">
+              <img src="/eminem.jpg" className="w-full" width={70} height={70}  alt="Album image"/>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded ">
+              <img src="/tweeknd.jpg" className="w-full" width={70} height={70}  alt="Album image"/>
             </a>
             <a href="#" className="bg-white/5 p-3 rounded ">
               <img src="/justin.png" className="w-full" width={70} height={70}  alt="Album image"/>
             </a>
             <a href="#" className="bg-white/5 p-3 rounded ">
-              <img src="/justin.png" className="w-full" width={70} height={70}  alt="Album image"/>
-            </a>
-            <a href="#" className="bg-white/5 p-3 rounded ">
-              <img src="/justin.png" className="w-full" width={70} height={70}  alt="Album image"/>
-            </a>
-            <a href="#" className="bg-white/5 p-3 rounded ">
-              <img src="/justin.png" className="w-full" width={70} height={70}  alt="Album image"/>
+              <img src="/eletronica.jpg" className="w-full" width={70} height={70}  alt="Album image"/>
             </a>
           </div>
 
