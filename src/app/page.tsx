@@ -1,37 +1,13 @@
-import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play} from "lucide-react"
+import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize, Maximize2} from "lucide-react"
 
+import { Sidebar } from "@/components/Sidebar";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
       <div className="flex flex-1">
-        <aside className="w-72 bg-zinc-950 p-6">
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 bg-red-500 rounded-full"/>
-            <div className="w-3 h-3 bg-yellow-500 rounded-full"/>
-            <div className="w-3 h-3 bg-green-500 rounded-full"/>
-          </div>
-          <nav className="space-y-5 mt-10">
-            <a href="#" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
-              <HomeIcon />
-              Home
-            </a>
-            <a href="#" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
-              <Search />
-              Search
-            </a>
-            <a href="#" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
-              <Library />
-              Your Library
-            </a>
-          </nav>
-          <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3">
-            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Trap</a>
-            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Rockzera</a>
-            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Playlist</a>
-            <a href="#" className="text-sm text-zinc-400 hover:text-zinc-100" >Aleatórios</a>
-          </nav>
-        </aside>
+        <Sidebar />
         <main className="flex-1 p-6">
           <div className="flex items-center gap-3">
             <button className="rounded-full bg-black/40 p-1">
@@ -88,28 +64,35 @@ export default function Home() {
           </div>
           <h2 className="font-semibold text-2xl mt-10">Made for Vinicius Viana</h2>
           <div className="grid grid-cols-6 gap-4 mt-4">
-            <a href="#" className="bg-white/5 p-3 rounded ">
+            <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
               <img src="/matue.webp" className="w-full" width={70} height={70}  alt="Album image"/>
+              <strong className="font-semibold ">Daily mix 1</strong>
+              <span className="Text-sm text-zinc-400">Matuê, Teto, Kayblack</span>
             </a>
-            <a href="#" className="bg-white/5 p-3 rounded ">
+            <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
               <img src="/eminem.jpg" className="w-full" width={70} height={70}  alt="Album image"/>
+              <strong className="font-semibold ">Daily mix 2</strong>
+              <span className="Text-sm text-zinc-400">Eminem, Snoop Dogg, Akon</span>
             </a>
-            <a href="#" className="bg-white/5 p-3 rounded ">
+            <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
               <img src="/tweeknd.jpg" className="w-full" width={70} height={70}  alt="Album image"/>
+              <strong className="font-semibold ">Daily mix 3</strong>
+              <span className="Text-sm text-zinc-400">The Weeknd, Travis Scott, Daft Punk</span>
             </a>
-            <a href="#" className="bg-white/5 p-3 rounded ">
+            <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
               <img src="/justin.png" className="w-full" width={70} height={70}  alt="Album image"/>
+              <strong className="font-semibold ">Daily mix 4</strong>
+              <span className="Text-sm text-zinc-400">Justin Bieber, Post Malone, The kid Laroi</span>
             </a>
-            <a href="#" className="bg-white/5 p-3 rounded ">
+            <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
               <img src="/eletronica.jpg" className="w-full" width={70} height={70}  alt="Album image"/>
+              <strong className="font-semibold ">Daily mix 5</strong>
+              <span className="Text-sm text-zinc-400">Eletronica</span>
             </a>
           </div>
-
         </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-        footer
-      </footer>
+      <Footer />
     </div>
   )
 }
