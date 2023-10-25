@@ -1,11 +1,11 @@
 # Spotify
 Este projeto é uma recriação da interface do Spotify, desenvolvida com Next.js, TypeScript e Tailwind CSS. Ele demonstra como construir uma aplicação web moderna com uma stack tecnológica popular.
 # Recursos
-Next.js: Utilizamos o Next.js para construir nossa aplicação React de forma rápida e eficiente, com suporte à renderização no lado do servidor (SSR) e geração de páginas estáticas.
+Next.js: Utilizei o Next.js para construir a aplicação de forma rápida e eficiente, com suporte à renderização no lado do servidor (SSR) e geração de páginas estáticas.
 
-TypeScript: TypeScript é a linguagem que usamos para adicionar tipagem estática ao JavaScript, aumentando a segurança e a legibilidade do código.
+TypeScript: TypeScript é a linguagem que usei para adicionar tipagem estática ao JavaScript, aumentando a segurança e a legibilidade do código.
 
-Tailwind CSS: Tailwind CSS nos permite criar estilos facilmente, seguindo uma abordagem "utility-first". É altamente personalizável e ajuda a manter nosso código CSS organizado.
+Tailwind CSS: Tailwind CSS permite criar estilos facilmente, seguindo uma abordagem "utility-first". É altamente personalizável e ajuda a manter nosso código CSS organizado.
 
 # Imagens do Projeto
 <img src="https://github.com/ViniciusPRO20/Spotify-interface/assets/115045547/f5703ae0-9393-490d-bd6c-2d0531b93cca"/>
