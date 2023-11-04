@@ -10,9 +10,9 @@ Tailwind CSS: Tailwind CSS permite criar estilos facilmente, seguindo uma aborda
 Para os **Icons** utilizei a biblioteca **"lucide-react"**.
 
 # Imagens do Projeto
-<img src="https://github.com/ViniciusPRO20/Spotify-interface/assets/115045547/f5703ae0-9393-490d-bd6c-2d0531b93cca"/>
+<img src="https://github.com/ViniciusPRO20/Spotify-interface/assets/115045547/c67b5dd7-0215-4a78-9172-1b66e0146100"/>
 <hr/>
-<img src="https://github.com/ViniciusPRO20/Spotify-interface/assets/115045547/5438ba21-ef5e-434b-be35-7ae57b01c726"/>
+<img src="https://github.com/ViniciusPRO20/Spotify-interface/assets/115045547/c1b6005f-939b-4c92-b99d-d71691d0442c"/>
 
 # Project settings
 creating project and installing dependencies:
