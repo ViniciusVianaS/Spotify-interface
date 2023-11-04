@@ -23,42 +23,42 @@ export default function Home() {
               <img src="/justin.png" width={70} height={70}  alt="Album image"/>
               <strong>This is Justin Bieber</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <img src="/eminem.jpg" width={70} height={70}  alt="Album image"/>
               <strong>This is Eminem</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <img src="/tweeknd.jpg" width={70} height={70}  alt="Album image"/>
               <strong>This is The Weeknd</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <img src="/matue.webp" width={70} height={70}  alt="Album image"/>
               <strong>This is Matuê</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <img src="/brazil.jpg" width={70} height={70}  alt="Album image"/>
               <strong>Top 50 - Brasil</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <img src="/eletronica.jpg" width={70} height={70}  alt="Album image"/>
               <strong>Eletronica</strong>
               <button className="w-11 h-11 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
           </div>
