@@ -7,15 +7,18 @@ TypeScript: TypeScript é a linguagem que usei para adicionar tipagem estática 
 
 Tailwind CSS: Tailwind CSS permite criar estilos facilmente, seguindo uma abordagem "utility-first". É altamente personalizável e ajuda a manter nosso código CSS organizado.
 
+Para os **Icons** utilizei a biblioteca **"lucide-react"**.
+
 # Imagens do Projeto
 <img src="https://github.com/ViniciusPRO20/Spotify-interface/assets/115045547/f5703ae0-9393-490d-bd6c-2d0531b93cca"/>
 <hr/>
 <img src="https://github.com/ViniciusPRO20/Spotify-interface/assets/115045547/5438ba21-ef5e-434b-be35-7ae57b01c726"/>
 
 # Project settings
-creating project:
+creating project and installing dependencies:
 ```bash
 npx create-next-app
+npm install lucide-react
 ```
 starting server:
 ```bash
@@ -24,5 +27,5 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-http://localhost:3000
+# http://localhost:3000
 ```
