@@ -1,7 +1,7 @@
 # Spotify
 Este projeto é uma recriação da interface do Spotify, desenvolvida com Next.js, TypeScript e Tailwind CSS. Ele demonstra como construir uma aplicação web moderna com uma stack tecnológica popular.
 Passando o mouse por cima do álbum ele aparece o Icon de Play
-# Recursos
+# Tecnologias
 Next.js: Utilizei o Next.js para construir a aplicação de forma rápida e eficiente, com suporte à renderização no lado do servidor (SSR) e geração de páginas estáticas.
 
 TypeScript: TypeScript é a linguagem que usei para adicionar tipagem estática ao JavaScript, aumentando a segurança e a legibilidade do código.
